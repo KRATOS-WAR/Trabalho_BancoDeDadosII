@@ -1,0 +1,97 @@
+!SESSION 2019-05-22 13:01:18.836 -----------------------------------------------
+eclipse.buildId=4.2.1.201904170946-RELEASE
+java.version=11.0.2
+java.vendor=Oracle Corporation
+BootLoader constants: OS=linux, ARCH=x86_64, WS=gtk, NL=pt_BR
+Framework arguments:  -product org.springframework.boot.ide.branding.sts4
+Command-line arguments:  -os linux -ws gtk -arch x86_64 -product org.springframework.boot.ide.branding.sts4
+
+!ENTRY org.eclipse.egit.core 1 0 2019-05-22 13:01:34.553
+!MESSAGE Using Apache MINA sshd as ssh client.
+
+!ENTRY org.eclipse.jface 2 0 2019-05-22 13:01:36.518
+!MESSAGE Keybinding conflicts occurred.  They may interfere with normal accelerator operation.
+!SUBENTRY 1 org.eclipse.jface 2 0 2019-05-22 13:01:36.518
+!MESSAGE A conflict occurred for CTRL+SHIFT+T:
+Binding(CTRL+SHIFT+T,
+	ParameterizedCommand(Command(org.eclipse.jdt.ui.navigate.open.type,Open Type,
+		Open a type in a Java editor,
+		Category(org.eclipse.ui.category.navigate,Navigate,null,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@3151277f,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+Binding(CTRL+SHIFT+T,
+	ParameterizedCommand(Command(org.eclipse.lsp4e.symbolinworkspace,Go to Symbol in Workspace,
+		,
+		Category(org.eclipse.lsp4e.category,Language Servers,null,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@2aeb7c4c,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-05-22 13:05:11.340
+!MESSAGE Entering DelegatingStreamConnectionProvider()
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-05-22 13:05:11.341
+!MESSAGE DelegatingStreamConnectionProvider classloader = org.eclipse.osgi.internal.loader.EquinoxClassLoader@f4e235e[org.springframework.tooling.boot.ls:1.6.0.201904170912(id=528)]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-05-22 13:05:11.497
+!MESSAGE SpringBootLanguageServer exists!
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-05-22 13:05:11.599
+!MESSAGE Instantiating ReusableClasspathListenerHandler
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-05-22 13:05:17.639
+!MESSAGE Boot LS startup time from start to initialized: 6109ms
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-05-22 13:05:17.758
+!MESSAGE ClasspathListenerHandler addClasspathListener sts4.classpath.MKCpywoJ
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-05-22 13:05:17.759
+!MESSAGE subscribing to classpath changes: sts4.classpath.MKCpywoJ
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-05-22 13:05:17.795
+!MESSAGE Setting up ClasspathListenerManager
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-05-22 13:05:17.797
+!MESSAGE subsribers = [sts4.classpath.MKCpywoJ]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-05-22 13:05:17.798
+!MESSAGE Sending initial event for all projects ...
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-05-22 13:05:17.805
+!MESSAGE project Locadora-Origin-api ...
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-05-22 13:05:17.808
+!MESSAGE Preparing classpath changed notification Locadora-Origin-api
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-05-22 13:05:17.810
+!MESSAGE Sending initial event for all projects DONE
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-05-22 13:05:17.810
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-05-22 13:05:17.811
+!MESSAGE ClasspathListenerHandler addClasspathListener sts4.classpath.MKCpywoJ => OK
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-05-22 13:05:17.822
+!MESSAGE classpath=84 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-05-22 13:05:17.823
+!MESSAGE executing callback sts4.classpath.MKCpywoJ Locadora-Origin-api false 84
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-05-22 13:05:17.871
+!MESSAGE executing callback sts4.classpath.MKCpywoJ SUCCESS [done]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-05-22 13:05:24.583
+!MESSAGE ClasspathListenerHandler removeClasspathListener sts4.classpath.MKCpywoJ
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-05-22 13:05:24.583
+!MESSAGE unsubscribing from classpath changes: sts4.classpath.MKCpywoJ
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-05-22 13:05:24.584
+!MESSAGE subsribers = null
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-05-22 13:05:24.584
+!MESSAGE ClasspathListenerHandler removeClasspathListener sts4.classpath.MKCpywoJ => OK
